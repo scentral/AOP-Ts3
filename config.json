@@ -1,0 +1,30 @@
+{
+    "command_name": "aop",
+    "permissions": {
+        "toggle": false,
+        "token": "bot_token_here",
+        "guild_id": "guild_id_here",
+        "roles": ["role_id_here"]
+    },
+
+    "time_settings": {
+        "toggle": false,
+        "time_zone": "America/Chicago"
+    },
+
+    "ts3_settings": {
+        "host": "localhost",
+        "queryport": 10011,
+        "serverport": 9987,
+        "username": "serveradmin",
+        "password": "query_password_here",
+        "nickname": "AOP Bot",
+        "channel_id": "channel_id_here"
+    },
+
+    "discord_logs": {
+        "toggle": false,
+        "channel_id": "channel_id_here",
+        "webhook": "webhook_url_here"
+    }
+}
