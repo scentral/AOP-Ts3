@@ -24,7 +24,6 @@
 
     "discord_logs": {
         "toggle": false,
-        "channel_id": "channel_id_here",
         "webhook": "webhook_url_here"
     }
 }
