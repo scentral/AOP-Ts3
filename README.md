@@ -1,5 +1,7 @@
 # AOP-Ts3
 This resource allows you to change instantly update the AOP of your server into a teamspeak channel from FiveM!
+[Discord](https://discord.gg/YAeUB5cYbK)
+
 ## Install
 
 - Drag the AOP-Ts3 resource into your server resource folder.
