@@ -22,8 +22,8 @@ console.log(time)
 RegisterCommand(config.command_name, async (source, args) => {
     let newaop = args.join(" ");
     let commandRunner = GetPlayerName(source);
-    let hasPermission = await CheckPermission(source);
     if (config.permissions.toggle) {
+        let hasPermission = await CheckPermission(source);
         if (hasPermission && newaop) {
             emitNet("chat:addMessage", -1, { template: `<div style='background-color: rgba(64, 64, 64, 0.8); text-align: center; border-radius: 0.5vh; padding: 0.7vh; font-size: 1.7vh;'><b>The AOP has been changed to ^3${newaop} ^7by ^1${commandRunner}.</b></div>`, });
             curraop = newaop;
